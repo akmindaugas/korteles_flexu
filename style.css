@@ -1,3 +1,10 @@
+:root{
+    --color-primary: red;
+    --color-secondary: blue;
+    --border-top: 5px;
+
+}
+
 *{
     box-sizing: border-box;
 }
@@ -69,6 +76,7 @@ border-top: 4px solid yellow;
 box-shadow: 5px 10px 15px black;
 }
 img.image{
+    color: var(--color-primary);
   text-align:right;
   margin-left: 200px;
 }
